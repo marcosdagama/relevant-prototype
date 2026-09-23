@@ -1,3 +1,9 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Relevant — creating content for culture. We advise, curate and produce exhibitions, content and programmes for leading cultural institutions across Europe.">
 <title>Relevant</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap');
@@ -350,7 +356,8 @@
   .d-nav .p-nav-title{font-weight:700;font-size:16px;}
   .d-nav .next{text-align:right;}
 </style>
-
+</head>
+<body>
 <div class="scrim" id="scrim"></div>
 <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
   <button class="mobile-nav-close" id="mobileClose" aria-label="Close menu">&times;</button>
@@ -360,6 +367,7 @@
   <a href="#consulting" class="sub" data-i18n="nav.consulting" data-nav-close>Strategy Consulting</a>
   <a href="#about" data-i18n="nav.about" data-nav-close>About us</a>
   <a href="#contact" data-i18n="nav.contact" data-nav-close>Contact</a>
+  <a href="legal.html" data-i18n="nav.terms" style="font-size:14px;color:var(--muted);border-bottom:none;padding-top:20px;">Terms</a>
 </nav>
 
 <header id="siteHeader">
@@ -576,6 +584,7 @@
       <p data-i18n="footer.copy">© 2026 Relevant.</p>
       <div class="foot-links">
         <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <a href="legal.html" data-i18n="nav.terms">Terms</a>
       </div>
     </div>
   </footer>
@@ -985,7 +994,7 @@
 
   var STR = {
     en: {
-      nav:{what:"What we do",work:"The Work",about:"About us",contact:"Contact",exhibitions:"Exhibitions &amp; Events",consulting:"Strategy Consulting"},
+      nav:{what:"What we do",work:"The Work",about:"About us",contact:"Contact",terms:"Terms",exhibitions:"Exhibitions &amp; Events",consulting:"Strategy Consulting"},
       hero:{
         eyebrow:"CREATING CONTENT FOR CULTURE",
         h1:"We enable leading cultural institutions in Europe to outsource the management of exhibitions, content and programmes.",
@@ -1000,7 +1009,7 @@
           cta:"More...", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Exhibition & Event Series Management",
           quote:"To reflect on what we know—and what we still ignore—about the ocean and its future.",
           copy:[
-            "Accompanying the United Nations Ocean Conference happening in Nice, France, in 2025, 'Becoming Ocean' is an exhibition and event series led by TBA21 Thyssen-Bornemisza Art Contemporary.",
+            "Accompanying the United Nations Ocean Conference held in Nice, France, in 2025, 'Becoming Ocean' is an exhibition and event series led by TBA21 Thyssen-Bornemisza Art Contemporary.",
             "The goal of this live experience is to reflect on what we know—and what we still ignore—about the ocean and its future. Through the lens of art and its countless forms, the exhibition seeks to initiate an open social dialogue around the urgent issues affecting the ocean—issues that have far-reaching consequences for all life on Earth. It also invites us to rethink our relationship with the ocean and to take new, more mindful actions to protect it.",
             "Over the past few decades, art and artists have played an active role in shaping our understanding of climate change through the perspective of Nature. Art has been—and continues to be—instrumental in translating abstract, complex planetary phenomena and large-scale systemic transformations into narrative images, first-person accounts, and indigenous perspectives. These artistic interpretations help us name and absorb the challenges we face. Increasingly, artists have moved beyond their studios to collaborate with experts, policymakers, and scientists, forging a shared horizon where a genuine encounter with nature and its interests becomes possible.",
             "Artists from diverse backgrounds and contexts have developed practices and gestures that respond to the rupture caused by damaging human activity in the seas. Their work paves the way for a new narrative—one shaped by wiser choices and a deeper connection to the mythical dimensions of the ocean, whose echoes reach us from time immemorial. Becoming Ocean invites visitors to immerse themselves, with humility, in these meaningful approaches.",
@@ -1064,7 +1073,7 @@
     },
 
     es: {
-      nav:{what:"Qué hacemos",work:"El Trabajo",about:"Sobre nosotros",contact:"Contacto",exhibitions:"Exposiciones y Eventos",consulting:"Consultoría Estratégica"},
+      nav:{what:"Qué hacemos",work:"El Trabajo",about:"Sobre nosotros",contact:"Contacto",terms:"Aviso legal",exhibitions:"Exposiciones y Eventos",consulting:"Consultoría Estratégica"},
       hero:{
         eyebrow:"CREANDO CONTENIDOS PARA LA CULTURA",
         h1:"Ayudamos a instituciones culturales europeas de referencia en la externalización de la gestión de exposiciones, contenidos y programas.",
@@ -1072,14 +1081,14 @@
         ctaWork:"Ver el trabajo", ctaTalk:"Hablemos",
         capProject:"Becoming Ocean — TBA21, Niza 2025"
       },
-      work:{eyebrow:"EL TRABAJO", h2:"Trabajo seleccionado"},
+      work:{eyebrow:"PROYECTOS", h2:"Proyectos"},
       proj:{
         "becoming-ocean":{tag:"GESTIÓN DE EXPOSICIÓN Y SERIE DE EVENTOS",title:"Becoming Ocean",
-          desc:"Exposición con motivo de la Conferencia de las Naciones Unidas sobre el Océano en Niza, 2025.",
+          desc:"Exposición con motivo de la Década del Océano de las Naciones Unidas, Niza 2025.",
           cta:"Más...", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Gestión de exposición y serie de eventos",
           quote:"Reflexionar sobre lo que sabemos —y lo que aún ignoramos— sobre el océano y su futuro.",
           copy:[
-            "Con motivo de la Conferencia de las Naciones Unidas sobre el Océano que tendrá lugar en Niza, Francia, en 2025, «Becoming Ocean» es una exposición y serie de eventos liderada por TBA21 Thyssen-Bornemisza Art Contemporary.",
+            "Con motivo de la Conferencia de las Naciones Unidas sobre el Océano que tuvo lugar en Niza, Francia, en 2025, «Becoming Ocean» es una exposición y serie de eventos liderada por TBA21 Thyssen-Bornemisza Art Contemporary.",
             "El objetivo de esta experiencia en vivo es reflexionar sobre lo que sabemos —y lo que aún ignoramos— sobre el océano y su futuro. A través de la mirada del arte y sus innumerables formas, la exposición busca iniciar un diálogo social abierto en torno a los problemas urgentes que afectan al océano —problemas con consecuencias de gran alcance para toda la vida en la Tierra—. También nos invita a repensar nuestra relación con el océano y a emprender nuevas acciones, más conscientes, para protegerlo.",
             "Durante las últimas décadas, el arte y los artistas han desempeñado un papel activo en la comprensión del cambio climático desde la perspectiva de la naturaleza. El arte ha sido —y sigue siendo— fundamental para traducir fenómenos planetarios abstractos y complejos, y transformaciones sistémicas a gran escala, en imágenes narrativas, relatos en primera persona y perspectivas indígenas. Estas interpretaciones artísticas nos ayudan a nombrar y asimilar los retos que enfrentamos. Cada vez más, los artistas salen de sus estudios para colaborar con expertos, responsables políticos y científicos, forjando un horizonte compartido donde es posible un encuentro genuino con la naturaleza y sus intereses.",
             "Artistas de orígenes y contextos diversos han desarrollado prácticas y gestos que responden a la ruptura provocada por la dañina actividad humana en los mares. Su trabajo abre camino a una nueva narrativa —una moldeada por decisiones más sabias y una conexión más profunda con las dimensiones míticas del océano, cuyos ecos nos llegan desde tiempos inmemoriales—. Becoming Ocean invita a los visitantes a sumergirse, con humildad, en estas propuestas significativas.",
@@ -1143,7 +1152,7 @@
     },
 
     ca: {
-      nav:{what:"Què fem",work:"La Feina",about:"Sobre nosaltres",contact:"Contacte",exhibitions:"Exposicions i Esdeveniments",consulting:"Consultoria Estratègica"},
+      nav:{what:"Què fem",work:"La Feina",about:"Sobre nosaltres",contact:"Contacte",terms:"Avís legal",exhibitions:"Exposicions i Esdeveniments",consulting:"Consultoria Estratègica"},
       hero:{
         eyebrow:"CREANT CONTINGUTS PER A LA CULTURA",
         h1:"Ajudem a institucions culturals a externalitzar la gestió d'exposicions, continguts i programes.",
@@ -1151,14 +1160,14 @@
         ctaWork:"Veure la feina", ctaTalk:"Parlem-ne",
         capProject:"Becoming Ocean — TBA21, Niça 2025"
       },
-      work:{eyebrow:"LA FEINA", h2:"Feina seleccionada"},
+      work:{eyebrow:"PROJECTES", h2:"Projectes"},
       proj:{
         "becoming-ocean":{tag:"GESTIÓ D'EXPOSICIÓ I SÈRIE D'ESDEVENIMENTS",title:"Becoming Ocean",
           desc:"Exposició amb motiu de la Conferència de les Nacions Unides sobre l'Oceà a Niça, 2025.",
           cta:"Més...", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Gestió d'exposició i sèrie d'esdeveniments",
           quote:"Reflexionar sobre allò que sabem —i allò que encara ignorem— sobre l'oceà i el seu futur.",
           copy:[
-            "Amb motiu de la Conferència de les Nacions Unides sobre l'Oceà que tindrà lloc a Niça, França, el 2025, «Becoming Ocean» és una exposició i sèrie d'esdeveniments liderada per TBA21 Thyssen-Bornemisza Art Contemporary.",
+            "Amb motiu de la Conferència de les Nacions Unides sobre l'Oceà que va tenir lloc a Niça, França, el 2025, «Becoming Ocean» és una exposició i sèrie d'esdeveniments liderada per TBA21 Thyssen-Bornemisza Art Contemporary.",
             "L'objectiu d'aquesta experiència en directe és reflexionar sobre allò que sabem —i allò que encara ignorem— sobre l'oceà i el seu futur. A través de la mirada de l'art i les seves incomptables formes, l'exposició busca iniciar un diàleg social obert al voltant dels problemes urgents que afecten l'oceà —problemes amb conseqüències de gran abast per a tota la vida a la Terra—. També ens convida a repensar la nostra relació amb l'oceà i a emprendre noves accions, més conscients, per protegir-lo.",
             "Durant les últimes dècades, l'art i els artistes han tingut un paper actiu en la comprensió del canvi climàtic des de la perspectiva de la natura. L'art ha estat —i continua sent— fonamental per traduir fenòmens planetaris abstractes i complexos, i transformacions sistèmiques a gran escala, en imatges narratives, relats en primera persona i perspectives indígenes. Aquestes interpretacions artístiques ens ajuden a anomenar i assimilar els reptes que afrontem. Cada vegada més, els artistes surten dels seus estudis per col·laborar amb experts, responsables polítics i científics, forjant un horitzó compartit on és possible una trobada genuïna amb la natura i els seus interessos.",
             "Artistes de bagatges i contextos diversos han desenvolupat pràctiques i gestos que responen a la ruptura provocada per la nociva activitat humana als mars. La seva feina obre camí a una nova narrativa —una modelada per decisions més sàvies i una connexió més profunda amb les dimensions mítiques de l'oceà, els ecos del qual ens arriben des de temps immemorials—. Becoming Ocean convida els visitants a submergir-se, amb humilitat, en aquestes propostes significatives.",
@@ -1543,3 +1552,5 @@
   routeFromHash();
 })();
 </script>
+</body>
+</html>
