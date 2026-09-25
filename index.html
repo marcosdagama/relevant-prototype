@@ -257,8 +257,12 @@
   .team-note{margin-top:44px;padding-top:32px;border-top:1px solid var(--line);color:var(--muted);font-size:15px;line-height:1.7;max-width:70ch;}
   .clients{margin-top:34px;}
   .clients .eyebrow{margin-bottom:14px;display:block;}
-  .client-list{display:flex;flex-wrap:wrap;gap:10px 14px;font-size:14px;color:var(--ink);}
-  .client-list span{padding:7px 13px;border:1px solid var(--line-strong);border-radius:100px;white-space:nowrap;}
+  .client-list{display:grid;grid-template-columns:repeat(3,1fr);gap:0 32px;}
+  .client-list>div{padding:14px 0;border-top:1px solid var(--line);}
+  .client-list .client-name{display:block;font-weight:700;font-size:15px;color:var(--ink);line-height:1.35;}
+  .client-list .client-city{display:block;margin-top:4px;font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);}
+  @media (max-width:860px){.client-list{grid-template-columns:repeat(2,1fr);}}
+  @media (max-width:560px){.client-list{grid-template-columns:1fr;}}
 
   .liaison{margin-top:44px;padding-top:34px;border-top:1px solid var(--line);}
   .liaison .eyebrow{margin-bottom:16px;display:block;}
@@ -590,10 +594,18 @@
       <div class="clients reveal pre">
         <span class="eyebrow" data-i18n="about.clientsLabel">CULTURAL INITIATIVES COMMISSIONED BY</span>
         <div class="client-list">
-          <span>CCCB</span><span>TBA21</span><span>Barbican</span><span>Somerset House</span>
-          <span>Waag Society</span><span>GSMA Mobile World Center</span><span>Piano City Berlin</span>
-          <span>Droog</span><span>Fundesplai</span><span>Residencia de Estudiantes</span>
-          <span>Barcelona Supercomputing Center</span><span>Red Cross Spain</span><span>Advanced Music</span><span>Institut Ramon Llull</span>
+          <div><span class="client-name">CCCB — Centre de Cultura Contemporània de Barcelona</span><span class="client-city">Barcelona</span></div>
+          <div><span class="client-name">TBA21 — Thyssen-Bornemisza Art Contemporary</span><span class="client-city">Madrid</span></div>
+          <div><span class="client-name">Fundación Residencia de Estudiantes</span><span class="client-city">Madrid</span></div>
+          <div><span class="client-name">Mobile World Capital</span><span class="client-city">Barcelona</span></div>
+          <div><span class="client-name">Barcelona Supercomputing Center</span><span class="client-city">Barcelona</span></div>
+          <div><span class="client-name">Tecla Sala, Centre d'Art</span><span class="client-city">L'Hospitalet de Llobregat</span></div>
+          <div><span class="client-name">Advanced Music</span><span class="client-city">Barcelona</span></div>
+          <div><span class="client-name">Waag Society</span><span class="client-city">Amsterdam</span></div>
+          <div><span class="client-name">DEMÀ — Fundesplai</span><span class="client-city">Barcelona</span></div>
+          <div><span class="client-name">Droog</span><span class="client-city">Amsterdam</span></div>
+          <div><span class="client-name">Red Cross</span><span class="client-city">Spain</span></div>
+          <div><span class="client-name">Piano City</span><span class="client-city">Berlin</span></div>
         </div>
       </div>
       <div class="liaison reveal pre">

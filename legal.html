@@ -404,6 +404,7 @@
     function langFromURL(){
       try {
         var v = new URL(location.href).searchParams.get('lang');
+        if (v === 'cat') return 'ca';
         if (v === 'en' || v === 'es' || v === 'ca') return v;
       } catch(e){}
       return null;
@@ -423,7 +424,7 @@
       if (updateURL) {
         try {
           var url = new URL(location.href);
-          url.searchParams.set('lang', lang);
+          url.searchParams.set('lang', lang === 'ca' ? 'cat' : lang);
           history.replaceState(null, '', url.toString());
         } catch(e){}
       }
