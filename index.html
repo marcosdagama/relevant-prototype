@@ -255,6 +255,8 @@
   .founder .role{font-family:var(--mono);font-size:12px;color:var(--blue);letter-spacing:.08em;text-transform:uppercase;margin-top:6px;display:block;}
   .founder p.bio{margin-top:14px;color:var(--muted);font-size:15px;line-height:1.65;}
   .team-note{margin-top:44px;padding-top:32px;border-top:1px solid var(--line);color:var(--muted);font-size:15px;line-height:1.7;max-width:70ch;}
+  .team-note .eyebrow{margin-bottom:14px;display:block;}
+  .team-note p + p{margin-top:16px;}
   .clients{margin-top:34px;}
   .clients .eyebrow{margin-bottom:14px;display:block;}
   .client-list{display:grid;grid-template-columns:repeat(3,1fr);gap:0 32px;}
@@ -580,7 +582,7 @@
       <h2 style="margin-top:10px;max-width:20ch;" class="reveal pre" data-i18n="about.h2">Two founders, one habit of good collaborators.</h2>
       <div class="founders" style="margin-top:44px;">
         <div class="founder reveal pre">
-          <h3>C i r a&nbsp; P é r e z</h3>
+          <h3>C i r a&nbsp; P é r e z&nbsp; B a r é s</h3>
           <span class="role" data-i18n="about.cira.role">Co-Founder &amp; Director</span>
           <p class="bio" data-i18n="about.cira.bio">Working in content for culture since 2004 out of Barcelona, Berlin and Amsterdam, Cira helps create exhibitions, develop programmes and content at leading public and private institutions — engaged in concept development, curatorship and execution.</p>
         </div>
@@ -590,7 +592,10 @@
           <p class="bio" data-i18n="about.marcos.bio">Over 15 years at leading advertising agencies across Europe and later a decade in brand communication, marketing, digital content and tech. At Relevant, Marcos provides strategic planning, management advisory, and helps project owners with ideation, scope, comms and partnerships.</p>
         </div>
       </div>
-      <p class="team-note reveal pre" data-i18n="about.team">Every project is unique, so for each one we bring together the right talent — visual artists, installation designers, architects, film producers, curators, interaction technologists and project managers we know and trust.</p>
+      <div class="team-note reveal pre">
+        <span class="eyebrow" data-i18n="about.teamLabel">TEAM PLAYERS</span>
+        <div data-i18n="about.team"><p>Every project is unique, so for each one we bring together the right talent — visual artists, installation designers, architects, film producers, curators, interaction technologists and project managers we know and trust.</p></div>
+      </div>
       <div class="clients reveal pre">
         <span class="eyebrow" data-i18n="about.clientsLabel">CULTURAL INITIATIVES COMMISSIONED BY</span>
         <div class="client-list">
@@ -813,22 +818,22 @@
   "es": {
     "eatActImpact": {
       "tag": "Desarrollo de concepto, co-comisariado y gestión de proyecto con y para DEMÀ-Fundesplai",
-      "title": "EAT, ACT, IMPACT",
+      "title": "COME, ACTÚA, IMPACTA",
       "desc": "La alimentación es un tema común a todos los seres humanos. Interconecta los aspectos económicos, medioambientales, culturales y sociales del desarrollo sostenible. Es también un punto de acción central en la lucha contra la crisis climática. Con 60.000 visitantes antes de iniciar su itinerancia, esta exposición sobre el futuro de la alimentación analiza el momento de emergencia actual y su oportunidad de cambio, ofreciendo a los visitantes soluciones transformadoras, accesibles y prácticas para promover una ciudadanía comprometida con el cuidado del planeta y de las personas."
     },
     "brains": {
       "tag": "Gestión de eventos",
-      "title": "BRAIN(S)",
+      "title": "CEREBRO(S)",
       "desc": "Organización y presentación de una serie de proyectos de innovación de académicos y neurocientíficos. Diseñamos eventos y contenidos en directo en torno al tema del cerebro, incluyendo un torneo de ajedrez abierto paralelo que permitió al público competir con un Gran Maestro Internacional. La exposición «Brains» (CCCB) examina las representaciones e investigaciones históricas de este fascinante órgano en el arte, la ciencia y la filosofía —su anatomía y su capacidad de generar consciencia, pensamiento abstracto, lenguaje, imaginación, sueños y memoria—, además de explorar otras formas de inteligencia más allá de la cognición humana, como la IA, la mente animal y los organismos sin cerebro."
     },
     "mars": {
       "tag": "Gestión de eventos",
-      "title": "MARS, THE RED MIRROR",
+      "title": "MARTE, EL ESPEJO ROJO",
       "desc": "Organización y presentación de conferencias en directo para el programa 'Ares Station', en el marco de la exposición «Mars, The Red Mirror» del CCCB. Este ciclo de charlas presentó un amplio abanico de proyectos científicos en colaboración con universidades y centros de investigación, e incluyó la retransmisión en directo del aterrizaje del rover Perseverance de la NASA en la superficie marciana, comentada por científicos expertos."
     },
     "quantum": {
       "tag": "Gestión de eventos",
-      "title": "QUANTUM",
+      "title": "CUÁNTICA",
       "desc": "La exposición Quantum ofrece claves para comprender los principios de la física cuántica a través del trabajo creativo conjunto de científicos y artistas, mostrada en el CCCB de abril a septiembre de 2019. Organizamos el programa de conferencias 'Beta Station' en la propia sede de la exposición, presentando y debatiendo proyectos científicos y aplicaciones de la física cuántica llevados a cabo por diversos centros de investigación. Un evento adicional con youtubers especializados en ciencia acercó los conceptos principales de la física cuántica al público general de forma cercana y amena."
     },
     "techForGood": {
@@ -855,22 +860,22 @@
   "ca": {
     "eatActImpact": {
       "tag": "Desenvolupament de concepte, co-comissariat i gestió de projecte amb i per a DEMÀ-Fundesplai",
-      "title": "EAT, ACT, IMPACT",
+      "title": "MENJA, ACTUA, IMPACTA",
       "desc": "L'alimentació és un tema comú a tots els éssers humans. Interconnecta els aspectes econòmics, mediambientals, culturals i socials del desenvolupament sostenible. És també un punt d'acció central en la lluita contra la crisi climàtica. Amb 60.000 visitants abans de començar la seva itinerància, aquesta exposició sobre el futur de l'alimentació analitza el moment d'emergència actual i la seva oportunitat de canvi, oferint als visitants solucions transformadores, accessibles i pràctiques per promoure una ciutadania compromesa amb la cura del planeta i de les persones."
     },
     "brains": {
       "tag": "Gestió d'esdeveniments",
-      "title": "BRAIN(S)",
+      "title": "CERVELL(S)",
       "desc": "Organització i presentació d'una sèrie de projectes d'innovació d'acadèmics i neurocientífics. Vam dissenyar esdeveniments i continguts en directe al voltant del tema del cervell, incloent un torneig d'escacs obert paral·lel que va permetre al públic competir amb un Gran Mestre Internacional. L'exposició «Brains» (CCCB) examina les representacions i investigacions històriques d'aquest fascinant òrgan en l'art, la ciència i la filosofia —la seva anatomia i la seva capacitat de generar consciència, pensament abstracte, llenguatge, imaginació, somnis i memòria—, alhora que explora altres formes d'intel·ligència més enllà de la cognició humana, com la IA, la ment animal i els organismes sense cervell."
     },
     "mars": {
       "tag": "Gestió d'esdeveniments",
-      "title": "MARS, THE RED MIRROR",
+      "title": "MART, EL MIRALL VERMELL",
       "desc": "Organització i presentació de conferències en directe per al programa 'Ares Station', en el marc de l'exposició «Mars, The Red Mirror» del CCCB. Aquest cicle de xerrades va presentar un ampli ventall de projectes científics en col·laboració amb universitats i centres de recerca, i va incloure la retransmissió en directe de l'aterratge del rover Perseverance de la NASA a la superfície marciana, comentada per científics experts."
     },
     "quantum": {
       "tag": "Gestió d'esdeveniments",
-      "title": "QUANTUM",
+      "title": "QUÀNTICA",
       "desc": "L'exposició Quantum ofereix claus per comprendre els principis de la física quàntica a través del treball creatiu conjunt de científics i artistes, mostrada al CCCB d'abril a setembre de 2019. Vam organitzar el programa de conferències 'Beta Station' a la mateixa seu de l'exposició, presentant i debatent projectes científics i aplicacions de la física quàntica duts a terme per diversos centres de recerca. Un esdeveniment addicional amb youtubers especialitzats en ciència va acostar els conceptes principals de la física quàntica al públic general d'una manera propera i amena."
     },
     "techForGood": {
@@ -1039,42 +1044,42 @@
 
   var NAV_I18N = {
   "en": {
-    "exhibitions": "Exhibitions & Events",
+    "exhibitions": "Exhibitions & Public Programmes",
     "consulting": "Strategy Consulting"
   },
   "es": {
-    "exhibitions": "Exposiciones y Eventos",
+    "exhibitions": "Exposiciones y Programas públicos",
     "consulting": "Consultoría Estratégica"
   },
   "ca": {
-    "exhibitions": "Exposicions i Esdeveniments",
+    "exhibitions": "Exposicions i Programes públics",
     "consulting": "Consultoria Estratègica"
   }
 };
 
-  var LISTING_H1 = { exh: {"en": "Exhibitions & Events", "es": "Exposiciones y Eventos", "ca": "Exposicions i Esdeveniments"}, cons: {"en": "Strategy Consulting", "es": "Consultoría Estratégica", "ca": "Consultoria Estratègica"} };
+  var LISTING_H1 = { exh: {"en": "Exhibitions & Public Programmes", "es": "Exposiciones y Programas públicos", "ca": "Exposicions i Programes públics"}, cons: {"en": "Strategy Consulting", "es": "Consultoría Estratégica", "ca": "Consultoria Estratègica"} };
 
-  var LISTING_LEDE = { exh: {"en": "Concept development, co-curatorship, event management and production — the exhibitions, talks and cultural programmes we've helped bring to life across Europe.", "es": "Desarrollo de concepto, co-comisariado, gestión de eventos y producción — las exposiciones, charlas y programas culturales que hemos ayudado a hacer realidad en toda Europa.", "ca": "Desenvolupament de concepte, co-comissariat, gestió d'esdeveniments i producció — les exposicions, xerrades i programes culturals que hem ajudat a fer realitat arreu d'Europa."}, cons: {"en": "Strategic advisory for cultural institutions and independent cultural ventures — on programme, digital transformation and audience strategy.", "es": "Asesoría estratégica para instituciones culturales e iniciativas culturales independientes — en programación, transformación digital y estrategia de audiencias.", "ca": "Assessoria estratègica per a institucions culturals i iniciatives culturals independents — en programació, transformació digital i estratègia d'audiències."} };
+  var LISTING_LEDE = { exh: {"en": "Coordination, conceptualisation or production of exhibitions and public programmes for cultural institutions across Europe. These are the projects we've helped bring to life.", "es": "Coordinación, conceptualización o producción de exposiciones y programas públicos para instituciones culturales en Europa. Estos son los proyectos que hemos ayudado a hacer realidad.", "ca": "Coordinació, conceptualització o producció d'exposicions i programes públics per a institucions culturals a Europa. Aquests són els projectes que hem ajudat a fer realitat."}, cons: {"en": "Strategic advisory for cultural institutions and independent cultural ventures — on programme, digital transformation and audience strategy.", "es": "Asesoría estratégica para instituciones culturales e iniciativas culturales independientes — en programación, transformación digital y estrategia de audiencias.", "ca": "Assessoria estratègica per a institucions culturals i iniciatives culturals independents — en programació, transformació digital i estratègia d'audiències."} };
 
   var STR = {
     en: {
-      nav:{what:"What we do",work:"The Work",about:"About us",contact:"Contact",terms:"Terms",exhibitions:"Exhibitions &amp; Events",consulting:"Strategy Consulting"},
+      nav:{what:"What we do",work:"The Work",about:"About us",contact:"Contact",terms:"Terms",exhibitions:"Exhibitions &amp; Public Programmes",consulting:"Strategy Consulting"},
       cookie:{
         message:"We use essential cookies to run this site. With your consent we'd also use analytics cookies to understand how it's used — see our <a href=\"legal.html\">cookie policy</a>.",
         accept:"Accept", reject:"Reject"
       },
       hero:{
         eyebrow:"CREATING CONTENT FOR CULTURE",
-        h1:"We enable the outsourcing and management of exhibitions, content and programmes at leading cultural institutions in Europe.",
-        lede:"Relevant advises, curates and produces projects for leading culture centres across Europe — from concept to opening night.",
+        h1:"We help public and private cultural institutions outsource the coordination of exhibitions, content and public programmes.",
+        lede:"Relevant advises, coordinates or curates projects for institutions and cultural centres across Europe — from concept to execution.",
         ctaWork:"See the work", ctaTalk:"Let's talk",
         capProject:"Becoming Ocean — TBA21, Nice 2025"
       },
       work:{eyebrow:"THE WORK", h2:"Selected work"},
       proj:{
-        "becoming-ocean":{tag:"EXHIBITION & EVENT SERIES MANAGEMENT",title:"Becoming Ocean",
+        "becoming-ocean":{tag:"EXHIBITION & PUBLIC PROGRAMME COORDINATION",title:"Becoming Ocean: A social conversation about the Ocean",
           desc:"Exhibition with the occasion of the United Nations Ocean Conference in Nice, 2025.",
-          cta:"More...", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Exhibition & Event Series Management",
+          cta:"More...", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Exhibition & Public Programme Coordination",
           quote:"To reflect on what we know—and what we still ignore—about the ocean and its future.",
           copy:[
             "Accompanying the United Nations Ocean Conference held in Nice, France, in 2025, 'Becoming Ocean' is an exhibition and event series led by TBA21 Thyssen-Bornemisza Art Contemporary.",
@@ -1085,18 +1090,18 @@
             "A series of events, film screenings, participatory round tables, and other live interactions are launched during the UN Ocean Conference in Nice, to amplify the reach of this project and to enable artists to engage with both the general public, conference representatives and specialized audiences."
           ]
         },
-        "ai":{tag:"CO-ORDINATION & PROJECT MANAGEMENT",title:"AI: Artificial Intelligence",
+        "ai":{tag:"EXHIBITION & PUBLIC PROGRAMME COORDINATION",title:"AI: Artificial Intelligence",
           desc:"The advancement of AI is the most discussed topic of recent times. This co-production between London's Barbican and Barcelona's Supercomputing and Contemporary Culture centres, explores the origins, nature and challenges that AI holds for the future of humankind.",
-          cta:"Discover", client:"CCCB — Centre of Contemporary Culture of Barcelona", scope:"Co-ordination & Project Management",
+          cta:"Discover", client:"CCCB — Centre of Contemporary Culture of Barcelona · BSC — Barcelona Supercomputing Centre", scope:"Exhibition & Public Programme Coordination",
           quote:"The origins, nature and challenges that AI holds for the future of humankind.",
           copy:[
             "An exhibition co-produced by Barcelona's Contemporary Culture and Supercomputing centers, with the Barbican Center in London.",
             "The challenge: to co-ordinate the launch of an exhibition about the most discussed topic in public opinion during the process itself of launching it."
           ]
         },
-        "art-advocacy":{tag:"CONCEPT DEVELOPMENT & EVENT MANAGEMENT",title:"Art for Advocacy: A Deep-Sea Live Show",
-          desc:"Blending scientific discovery with artistic exploration to create a vibrant space for dialogue.",
-          cta:"Learn more", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Concept Development & Event Management",
+        "art-advocacy":{tag:"CONCEPT DEVELOPMENT & WORKSHOP AND EVENT COORDINATION",title:"Art for Advocacy: A Deep-Sea Live Show",
+          desc:"Blending scientific discovery with artistic exploration to create a vibrant space for dialogue at DHUB.",
+          cta:"Learn more", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Concept Development & Workshop and Event Coordination",
           quote:"By blending scientific discovery with artistic exploration, it creates a vibrant space for interdisciplinary dialogue.",
           copy:[
             "In the context of the 2024 UNESCO Ocean Decade Conference, TBA21 launches this satellite international event aimed at promoting inter-disciplinary discussions around the topic of the deep sea, and to reflect on the role of the Ocean in the future of our planet.",
@@ -1107,9 +1112,9 @@
             "The event is organized by TBA21 in collaboration with Disseny Hub Barcelona, Sónar, Schmidt Ocean Institute, and the Institute of Marine Sciences, with the participation of the Barcelona Supercomputer Center and the Catalan Foundation for Research and Innovation."
           ]
         },
-        "moment-alone":{tag:"CONCEPT DEVELOPMENT, CURATORSHIP AND PRODUCTION",title:"A Moment Alone",
+        "moment-alone":{tag:"EXHIBITION PROJECT CONCEPTUALISATION, CURATORSHIP AND PRODUCTION",title:"A Moment Alone",
           desc:"People of all ages and genders are experiencing increased levels of isolation in Western societies. The fast pace of social change and technology is modifying the rules of human interaction and turning \"unwanted solitude\" into a widespread phenomenon. Red Cross aims to raise awareness of this silent reality, revealing its symptoms and reflecting on its consequences. This project seeks the conscious re-engagement of human social interaction, one of the main characteristics that sets us apart as a living species.",
-          cta:"Read more", client:"Red Cross — Spain", scope:"Concept Development, Curatorship and Production",
+          cta:"Read more", client:"Cruz Roja", scope:"Exhibition Project Conceptualisation, Curatorship and Production",
           quote:"Turning ‘unwanted solitude’ into a widespread phenomenon.",
           copy:[
             "Red Cross launched A Moment Alone, a touring exhibition focused on the pressing issue of unwanted solitude, a phenomenon increasingly affecting Western societies. The exhibit's aim is to spark debate and encourage public awareness about the multifaceted nature of solitude, spanning across generations and genders today.",
@@ -1128,10 +1133,11 @@
         p3:{title:"Produce & deliver",desc:"Mostly through hands-on management of exhibitions, experiences and mediation events, we partner with institutions to bring their mission to life."}
       },
       about:{
-        eyebrow:"ABOUT US", h2:"Two founders, one habit of good collaborators.",
-        cira:{role:"Co-Founder & Director", bio:"Working in content for culture since 2004 out of Barcelona, Berlin and Amsterdam, Cira helps create exhibitions, develop programmes and content at leading public and private institutions — engaged in concept development, curatorship and execution."},
+        eyebrow:"ABOUT US", h2:"Two founders, surrounded by good collaborators.",
+        cira:{role:"Co-Founder & Director", bio:"Working in cultural content since 2004, Cira helps create exhibitions and develop programmes and content for public and private institutions. She coordinates projects from conceptualisation through to execution, getting involved in whichever phases of the process require it: documentation, curatorship or production management. Her long experience in this field spans local and international projects, as well as touring exhibitions."},
         marcos:{role:"Co-Founder & Managing Partner", bio:"Over 15 years at leading advertising agencies across Europe and later a decade in brand communication, marketing, digital content and tech. At Relevant, Marcos provides strategic planning, management advisory, and helps project owners with ideation, scope, comms and partnerships."},
-        team:"Every project is unique, so for each one we bring together the right talent — visual artists, installation designers, architects, film producers, curators, interaction technologists and project managers we know and trust.",
+        teamLabel:"COLLABORATORS",
+        team:"<p>All great culture projects aim to be unique. Their requirements are equally different, almost every time. That's why, for any given job, we bring together the best possible talent.</p><p>We work with a group of habituals and rising stars that we really like and trust. Great professionals from all backgrounds with whom we've often worked before, or who have the right credentials: visual artists, graphic designers, architects, film producers, curators, technology developers, installation contractors and other specialist talent.</p>",
         clientsLabel:"CULTURAL INITIATIVES COMMISSIONED BY",
         liaisonLabel:"RELEVANT PROJECTS IN LIAISON WITH"
       },
@@ -1141,23 +1147,23 @@
     },
 
     es: {
-      nav:{what:"Qué hacemos",work:"Proyectos",about:"Sobre nosotros",contact:"Contacto",terms:"Aviso legal",exhibitions:"Exposiciones y Eventos",consulting:"Consultoría Estratégica"},
+      nav:{what:"Qué hacemos",work:"Proyectos",about:"Sobre nosotros",contact:"Contacto",terms:"Aviso legal",exhibitions:"Exposiciones y Programas públicos",consulting:"Consultoría Estratégica"},
       cookie:{
         message:"Utilizamos cookies esenciales para el funcionamiento del sitio. Con su consentimiento, también usaríamos cookies analíticas para entender cómo se usa — consulte nuestra <a href=\"legal.html\">política de cookies</a>.",
         accept:"Aceptar", reject:"Rechazar"
       },
       hero:{
         eyebrow:"CREANDO CONTENIDOS PARA LA CULTURA",
-        h1:"Ayudamos a instituciones culturales europeas de referencia en la externalización de la gestión de exposiciones, contenidos y programas.",
-        lede:"Relevant asesora, comisaría y produce proyectos para los principales centros culturales de Europa, desde el concepto hasta la inauguración.",
+        h1:"Ayudamos a instituciones culturales públicas y privadas a externalizar la coordinación de exposiciones, contenidos y programas públicos.",
+        lede:"Relevant asesora, coordina o comisaría proyectos para instituciones y centros culturales en Europa, desde el concepto hasta la ejecución.",
         ctaWork:"Ver los proyectos", ctaTalk:"Hablemos",
         capProject:"Becoming Ocean — TBA21, Niza 2025"
       },
-      work:{eyebrow:"PROYECTOS", h2:"Proyectos"},
+      work:{eyebrow:"PROYECTOS", h2:"Selección de proyectos"},
       proj:{
-        "becoming-ocean":{tag:"GESTIÓN DE EXPOSICIÓN Y SERIE DE EVENTOS",title:"Becoming Ocean",
+        "becoming-ocean":{tag:"COORDINACIÓN DE EXPOSICIÓN Y PROGRAMA PÚBLICO",title:"Becoming Ocean: A social conversation about the Ocean",
           desc:"Exposición con motivo de la Década del Océano de las Naciones Unidas, Niza 2025.",
-          cta:"Más...", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Gestión de exposición y serie de eventos",
+          cta:"Más...", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Coordinación de exposición y programa público",
           quote:"Reflexionar sobre lo que sabemos —y lo que aún ignoramos— sobre el océano y su futuro.",
           copy:[
             "Con motivo de la Conferencia de las Naciones Unidas sobre el Océano que tuvo lugar en Niza, Francia, en 2025, «Becoming Ocean» es una exposición y serie de eventos liderada por TBA21 Thyssen-Bornemisza Art Contemporary.",
@@ -1168,18 +1174,18 @@
             "Durante la Conferencia de la ONU sobre el Océano en Niza se despliega una serie de eventos, proyecciones de cine, mesas redondas participativas y otras interacciones en vivo, para amplificar el alcance de este proyecto y permitir que los artistas conecten tanto con el público general como con representantes de la conferencia y públicos especializados."
           ]
         },
-        "ai":{tag:"COORDINACIÓN Y GESTIÓN DE PROYECTO",title:"IA: Inteligencia Artificial",
+        "ai":{tag:"COORDINACIÓN DE EXPOSICIÓN Y PROGRAMA PÚBLICO",title:"IA: Inteligencia Artificial",
           desc:"El avance de la IA es el tema más discutido de los últimos tiempos. Esta coproducción entre el Barbican de Londres y los centros de Supercomputación y Cultura Contemporánea de Barcelona explora los orígenes, la naturaleza y los retos que la IA plantea para el futuro de la humanidad.",
-          cta:"Descubre", client:"CCCB — Centre de Cultura Contemporània de Barcelona", scope:"Coordinación y gestión de proyecto",
+          cta:"Descubre", client:"CCCB — Centre de Cultura Contemporània de Barcelona · BSC — Barcelona Supercomputing Centre", scope:"Coordinación de exposición y programa público",
           quote:"Los orígenes, la naturaleza y los retos que la IA plantea para el futuro de la humanidad.",
           copy:[
             "Una exposición coproducida por los centros de Cultura Contemporánea y Supercomputación de Barcelona, junto con el Barbican Centre de Londres.",
             "El reto: coordinar el lanzamiento de una exposición sobre el tema más discutido de la opinión pública durante el propio proceso de su lanzamiento."
           ]
         },
-        "art-advocacy":{tag:"DESARROLLO DE CONCEPTO Y GESTIÓN DE EVENTOS",title:"Art for Advocacy: A Deep-Sea Live Show",
-          desc:"Ciencia y exploración artística se combinan para crear un espacio vibrante de diálogo.",
-          cta:"Saber más", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Desarrollo de concepto y gestión de eventos",
+        "art-advocacy":{tag:"DESARROLLO DE CONCEPTO Y COORDINACIÓN DE WORKSHOP Y EVENTO PÚBLICO",title:"Art for Advocacy: A Deep-Sea Live Show",
+          desc:"Ciencia y exploración artística se combinan para crear un espacio vibrante de diálogo en el DHUB.",
+          cta:"Saber más", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Desarrollo de concepto y coordinación de workshop y evento público",
           quote:"Combinando el descubrimiento científico con la exploración artística, crea un espacio vibrante de diálogo interdisciplinar.",
           copy:[
             "En el marco de la Conferencia del Decenio de los Océanos de la UNESCO 2024, TBA21 pone en marcha este evento satélite internacional destinado a promover discusiones interdisciplinares en torno a las profundidades marinas, y a reflexionar sobre el papel del océano en el futuro de nuestro planeta.",
@@ -1190,9 +1196,9 @@
             "El evento está organizado por TBA21 en colaboración con Disseny Hub Barcelona, Sónar, el Schmidt Ocean Institute y el Institut de Ciències del Mar, con la participación del Barcelona Supercomputing Center y la Fundación Catalana para la Investigación y la Innovación."
           ]
         },
-        "moment-alone":{tag:"DESARROLLO DE CONCEPTO, COMISARIADO Y PRODUCCIÓN",title:"A Moment Alone",
+        "moment-alone":{tag:"CONCEPTUALIZACIÓN PROYECTO EXPOSITIVO, COMISARIADO Y PRODUCCIÓN",title:"A Moment Alone",
           desc:"Personas de todas las edades y géneros experimentan niveles crecientes de aislamiento en las sociedades occidentales. El ritmo acelerado del cambio social y la tecnología está modificando las reglas de la interacción humana y convirtiendo la «soledad no deseada» en un fenómeno generalizado. Cruz Roja busca visibilizar esta realidad silenciosa, revelando sus síntomas y reflexionando sobre sus consecuencias. Este proyecto busca el reencuentro consciente con la interacción social humana, uno de los rasgos principales que nos distingue como especie viva.",
-          cta:"Leer más", client:"Cruz Roja Española", scope:"Desarrollo de concepto, comisariado y producción",
+          cta:"Leer más", client:"Cruz Roja", scope:"Conceptualización proyecto expositivo, comisariado y producción",
           quote:"Convirtiendo la «soledad no deseada» en un fenómeno generalizado.",
           copy:[
             "Cruz Roja lanzó A Moment Alone, una exposición itinerante centrada en el acuciante problema de la soledad no deseada, un fenómeno que afecta cada vez más a las sociedades occidentales. El objetivo de la exposición es generar debate y fomentar la conciencia pública sobre la naturaleza multifacética de la soledad, presente hoy en todas las generaciones y géneros.",
@@ -1211,10 +1217,11 @@
         p3:{title:"Producir y ejecutar",desc:"Principalmente mediante la gestión directa de exposiciones, experiencias y eventos de mediación, colaboramos con instituciones para dar vida a su misión."}
       },
       about:{
-        eyebrow:"SOBRE NOSOTROS", h2:"Dos fundadores, la misma costumbre de rodearse de buenos colaboradores.",
-        cira:{role:"Cofundadora y Directora", bio:"Trabajando en contenidos para la cultura desde 2004 entre Barcelona, Berlín y Ámsterdam, Cira ayuda a crear exposiciones y desarrollar programas y contenidos para las principales instituciones públicas y privadas — implicada en el desarrollo de concepto, el comisariado y la ejecución."},
+        eyebrow:"SOBRE NOSOTROS", h2:"Dos fundadores rodeados de buenos colaboradores.",
+        cira:{role:"Cofundadora y Directora", bio:"Trabajando en contenidos culturales desde 2004, Cira ayuda a crear exposiciones y desarrollar programas y contenidos para instituciones públicas y privadas. Coordina proyectos desde la conceptualización hasta la ejecución, implicándose en todas las fases del proceso que lo requieran: documentación, comisariado o gestión de la producción. Su larga experiencia en este campo abarca tanto proyectos locales como internacionales, así como itinerancias."},
         marcos:{role:"Cofundador y Socio Director", bio:"Más de 15 años en las principales agencias de publicidad de Europa y, después, una década en comunicación de marca, marketing, contenido digital y tecnología. En Relevant, Marcos aporta planificación estratégica, asesoría de gestión, y ayuda a los responsables de proyecto con la ideación, el alcance, la comunicación y las alianzas."},
-        team:"Cada proyecto es único, así que para cada uno reunimos el talento adecuado — artistas visuales, diseñadores de instalaciones, arquitectos, productores audiovisuales, comisarios, tecnólogos de interacción y gestores de proyecto en quienes confiamos.",
+        teamLabel:"COLABORADORES",
+        team:"<p>Todos los grandes proyectos culturales aspiran a ser únicos. Casi siempre, sus necesidades son igual de distintas. Por eso, para cada encargo, reunimos el mejor talento posible.</p><p>Trabajamos con un grupo de habituales y valores en alza que nos gustan y en quienes confiamos. Grandes profesionales de todos los ámbitos con quienes hemos colaborado a menudo, o que cuentan con las credenciales adecuadas: artistas visuales, diseñadores gráficos, arquitectos, productores audiovisuales, comisarios, desarrolladores tecnológicos, empresas de montaje y otros especialistas.</p>",
         clientsLabel:"INICIATIVAS CULTURALES ENCARGADAS POR",
         liaisonLabel:"PROYECTOS DE RELEVANT EN COLABORACIÓN CON"
       },
@@ -1224,23 +1231,23 @@
     },
 
     ca: {
-      nav:{what:"Què fem",work:"Projectes",about:"Sobre nosaltres",contact:"Contacte",terms:"Avís legal",exhibitions:"Exposicions i Esdeveniments",consulting:"Consultoria Estratègica"},
+      nav:{what:"Què fem",work:"Projectes",about:"Sobre nosaltres",contact:"Contacte",terms:"Avís legal",exhibitions:"Exposicions i Programes públics",consulting:"Consultoria Estratègica"},
       cookie:{
         message:"Utilitzem cookies essencials perquè el lloc funcioni. Amb el vostre consentiment, també faríem servir cookies analítiques per entendre com s'utilitza — consulteu la nostra <a href=\"legal.html\">política de cookies</a>.",
         accept:"Acceptar", reject:"Rebutjar"
       },
       hero:{
         eyebrow:"CREANT CONTINGUTS PER A LA CULTURA",
-        h1:"Ajudem a institucions culturals a externalitzar la gestió d'exposicions, continguts i programes.",
-        lede:"Relevant assessora, comissaria i produeix projectes per als principals centres culturals d'Europa, des del concepte fins a la inauguració.",
+        h1:"Ajudem a institucions culturals públiques i privades a externalitzar la coordinació d'exposicions, continguts i programes públics.",
+        lede:"Relevant assessora, coordina o comissaria projectes per a institucions i centres culturals a Europa, des del concepte fins a l'execució.",
         ctaWork:"Veure els projectes", ctaTalk:"Parlem-ne",
         capProject:"Becoming Ocean — TBA21, Niça 2025"
       },
-      work:{eyebrow:"PROJECTES", h2:"Projectes"},
+      work:{eyebrow:"PROJECTES", h2:"Selecció de projectes"},
       proj:{
-        "becoming-ocean":{tag:"GESTIÓ D'EXPOSICIÓ I SÈRIE D'ESDEVENIMENTS",title:"Becoming Ocean",
+        "becoming-ocean":{tag:"COORDINACIÓ D'EXPOSICIÓ I PROGRAMA PÚBLIC",title:"Becoming Ocean: A social conversation about the Ocean",
           desc:"Exposició amb motiu de la Conferència de les Nacions Unides sobre l'Oceà a Niça, 2025.",
-          cta:"Més...", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Gestió d'exposició i sèrie d'esdeveniments",
+          cta:"Més...", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Coordinació d'exposició i programa públic",
           quote:"Reflexionar sobre allò que sabem —i allò que encara ignorem— sobre l'oceà i el seu futur.",
           copy:[
             "Amb motiu de la Conferència de les Nacions Unides sobre l'Oceà que va tenir lloc a Niça, França, el 2025, «Becoming Ocean» és una exposició i sèrie d'esdeveniments liderada per TBA21 Thyssen-Bornemisza Art Contemporary.",
@@ -1251,18 +1258,18 @@
             "Durant la Conferència de l'ONU sobre l'Oceà a Niça es desplega una sèrie d'esdeveniments, projeccions de cinema, taules rodones participatives i altres interaccions en directe, per amplificar l'abast d'aquest projecte i permetre que els artistes connectin tant amb el públic general com amb representants de la conferència i públics especialitzats."
           ]
         },
-        "ai":{tag:"COORDINACIÓ I GESTIÓ DE PROJECTE",title:"IA: Intel·ligència Artificial",
+        "ai":{tag:"COORDINACIÓ D'EXPOSICIÓ I PROGRAMA PÚBLIC",title:"IA: Intel·ligència Artificial",
           desc:"L'avenç de la IA és el tema més discutit dels últims temps. Aquesta coproducció entre el Barbican de Londres i els centres de Supercomputació i Cultura Contemporània de Barcelona explora els orígens, la naturalesa i els reptes que la IA planteja per al futur de la humanitat.",
-          cta:"Descobreix", client:"CCCB — Centre de Cultura Contemporània de Barcelona", scope:"Coordinació i gestió de projecte",
+          cta:"Descobreix", client:"CCCB — Centre de Cultura Contemporània de Barcelona · BSC — Barcelona Supercomputing Centre", scope:"Coordinació d'exposició i programa públic",
           quote:"Els orígens, la naturalesa i els reptes que la IA planteja per al futur de la humanitat.",
           copy:[
             "Una exposició coproduïda pels centres de Cultura Contemporània i Supercomputació de Barcelona, juntament amb el Barbican Centre de Londres.",
             "El repte: coordinar el llançament d'una exposició sobre el tema més discutit de l'opinió pública durant el mateix procés del seu llançament."
           ]
         },
-        "art-advocacy":{tag:"DESENVOLUPAMENT DE CONCEPTE I GESTIÓ D'ESDEVENIMENTS",title:"Art for Advocacy: A Deep-Sea Live Show",
-          desc:"Ciència i exploració artística es combinen per crear un espai vibrant de diàleg.",
-          cta:"Saber-ne més", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Desenvolupament de concepte i gestió d'esdeveniments",
+        "art-advocacy":{tag:"DESENVOLUPAMENT DE CONCEPTE I COORDINACIÓ DE WORKSHOP I ESDEVENIMENT PÚBLIC",title:"Art for Advocacy: A Deep-Sea Live Show",
+          desc:"Ciència i exploració artística es combinen per crear un espai vibrant de diàleg al DHUB.",
+          cta:"Saber-ne més", client:"TBA21 — Thyssen-Bornemisza Art Contemporary", scope:"Desenvolupament de concepte i coordinació de workshop i esdeveniment públic",
           quote:"En combinar el descobriment científic amb l'exploració artística, crea un espai vibrant de diàleg interdisciplinari.",
           copy:[
             "En el marc de la Conferència de la Dècada dels Oceans de la UNESCO 2024, TBA21 posa en marxa aquest esdeveniment satèl·lit internacional destinat a promoure discussions interdisciplinàries al voltant de les profunditats marines, i a reflexionar sobre el paper de l'oceà en el futur del nostre planeta.",
@@ -1273,9 +1280,9 @@
             "L'esdeveniment està organitzat per TBA21 en col·laboració amb Disseny Hub Barcelona, Sónar, el Schmidt Ocean Institute i l'Institut de Ciències del Mar, amb la participació del Barcelona Supercomputing Center i la Fundació Catalana per a la Recerca i la Innovació."
           ]
         },
-        "moment-alone":{tag:"DESENVOLUPAMENT DE CONCEPTE, COMISSARIAT I PRODUCCIÓ",title:"A Moment Alone",
+        "moment-alone":{tag:"CONCEPTUALITZACIÓ PROJECTE EXPOSITIU, COMISSARIAT I PRODUCCIÓ",title:"A Moment Alone",
           desc:"Persones de totes les edats i gèneres experimenten nivells creixents d'aïllament a les societats occidentals. El ritme accelerat del canvi social i la tecnologia està modificant les regles de la interacció humana i convertint la «solitud no desitjada» en un fenomen generalitzat. La Creu Roja busca visibilitzar aquesta realitat silenciosa, revelant-ne els símptomes i reflexionant sobre les conseqüències. Aquest projecte busca el retrobament conscient amb la interacció social humana, un dels trets principals que ens distingeix com a espècie viva.",
-          cta:"Llegeix-ne més", client:"Creu Roja Espanyola", scope:"Desenvolupament de concepte, comissariat i producció",
+          cta:"Llegeix-ne més", client:"Cruz Roja", scope:"Conceptualització projecte expositiu, comissariat i producció",
           quote:"Convertint la «solitud no desitjada» en un fenomen generalitzat.",
           copy:[
             "La Creu Roja va llançar A Moment Alone, una exposició itinerant centrada en el problema urgent de la solitud no desitjada, un fenomen que afecta cada vegada més les societats occidentals. L'objectiu de l'exposició és generar debat i fomentar la consciència pública sobre la naturalesa multifacètica de la solitud, present avui en totes les generacions i gèneres.",
@@ -1294,10 +1301,11 @@
         p3:{title:"Produir i executar",desc:"Principalment mitjançant la gestió directa d'exposicions, experiències i esdeveniments de mediació, col·laborem amb institucions per donar vida a la seva missió."}
       },
       about:{
-        eyebrow:"SOBRE NOSALTRES", h2:"Dos fundadors, el mateix costum d'envoltar-se de bons col·laboradors.",
-        cira:{role:"Cofundadora i Directora", bio:"Treballant en continguts per a la cultura des del 2004 entre Barcelona, Berlín i Amsterdam, la Cira ajuda a crear exposicions i desenvolupar programes i continguts per a les principals institucions públiques i privades — implicada en el desenvolupament de concepte, el comissariat i l'execució."},
+        eyebrow:"SOBRE NOSALTRES", h2:"Dos fundadors envoltats de bons col·laboradors.",
+        cira:{role:"Cofundadora i Directora", bio:"Treballant en continguts culturals des del 2004, la Cira ajuda a crear exposicions i desenvolupar programes i continguts per a institucions públiques i privades. Coordina projectes des de la conceptualització fins a l'execució, implicant-se en totes les fases del procés que ho requereixin: documentació, comissariat o gestió de la producció. La seva llarga experiència en aquest camp comprèn tant projectes locals com internacionals així com itineràncies."},
         marcos:{role:"Cofundador i Soci Director", bio:"Més de 15 anys a les principals agències de publicitat d'Europa i, després, una dècada en comunicació de marca, màrqueting, contingut digital i tecnologia. A Relevant, en Marcos aporta planificació estratègica, assessoria de gestió, i ajuda els responsables de projecte amb la ideació, l'abast, la comunicació i les aliances."},
-        team:"Cada projecte és únic, així que per a cadascun reunim el talent adequat — artistes visuals, dissenyadors d'instal·lacions, arquitectes, productors audiovisuals, comissaris, tecnòlegs d'interacció i gestors de projecte en qui confiem.",
+        teamLabel:"COL·LABORADORS",
+        team:"<p>Tots els grans projectes culturals aspiren a ser únics. Gairebé sempre, les seves necessitats són igual de diferents. Per això, per a cada encàrrec, reunim el millor talent possible.</p><p>Treballem amb un grup d'habituals i valors a l'alça que ens agraden i en qui confiem. Grans professionals de tots els àmbits amb qui hem col·laborat sovint, o que compten amb les credencials adequades: artistes visuals, dissenyadors gràfics, arquitectes, productors audiovisuals, comissaris, desenvolupadors tecnològics, empreses de muntatge i altres especialistes.</p>",
         clientsLabel:"INICIATIVES CULTURALS ENCARREGADES PER",
         liaisonLabel:"PROJECTES DE RELEVANT EN COL·LABORACIÓ AMB"
       },
@@ -1563,11 +1571,11 @@
     var html = "";
     EXH_CORE_ORDER.forEach(function(id){
       var d = STR[lang].proj[id];
-      html += cardHTML("project/"+id, PROJECT_IMG[id], '<p class="wcard-kicker">'+escHTML(d.tag)+'</p>', "", escHTML(d.title), escHTML(d.desc));
+      html += cardHTML("project/"+id, PROJECT_IMG[id], "", "", escHTML(d.title), escHTML(d.desc));
     });
     XPROJ_ORDER.forEach(function(slug){
       var d = XPROJ[lang][slug];
-      html += cardHTML("xproject/"+slug, IMG[slug], '<p class="wcard-kicker">'+escHTML(d.tag)+'</p>', "", escHTML(d.title), escHTML(d.desc));
+      html += cardHTML("xproject/"+slug, IMG[slug], "", "", escHTML(d.title), escHTML(d.desc));
     });
     grid.innerHTML = html;
     grid.querySelectorAll(".wcard").forEach(function(card){
@@ -1581,7 +1589,7 @@
     var html = "";
     CPROJ_ORDER.forEach(function(slug){
       var d = CPROJ[lang][slug];
-      var kickerHTML = '<p class="wcard-kicker'+(d.accent?' accent':'')+'">'+escHTML(d.kicker)+'</p>';
+      var kickerHTML = d.accent ? '<p class="wcard-kicker accent">'+escHTML(d.kicker)+'</p>' : "";
       html += cardHTML("cproject/"+slug, IMG[slug], kickerHTML, d.tag ? escHTML(d.tag) : "", escHTML(d.title), escHTML(d.desc));
     });
     grid.innerHTML = html;
